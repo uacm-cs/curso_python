@@ -17,7 +17,3 @@ def test_respuesta():
 
 def test_sumatoria():
     assert sumatoria([1,2,3]) == 6
-
-def test_sumatoria_par(lista, resultado):
-    assert sumatoria(lista) == resultado
-    
